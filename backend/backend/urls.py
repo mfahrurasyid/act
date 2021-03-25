@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, re_path, include
 from django.views.generic import TemplateView
 from service.views import uppercase_text
+from service import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
