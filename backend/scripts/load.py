@@ -1,7 +1,7 @@
 import csv
 from django.contrib.auth.models import User
 import os
-from journal.models import TrxAccount, TrxAccountChoices
+from ..backend.models import TrxAccount, TrxAccountChoices
 
 
 def run():
