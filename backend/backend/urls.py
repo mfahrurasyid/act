@@ -22,6 +22,7 @@ from service import urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('uppercase_text', uppercase_text, name='uppercase_text'),
+    path('api/v1/', include('service.urls')),    path('api/v1/', include('service.urls')),
     re_path(".*", TemplateView.as_view(template_name="index.html")),
-    path('api/v1/', include('service.urls')),
+
 ]
