@@ -5,8 +5,8 @@ from ..backend.models import TrxAccount, TrxAccountChoices
 
 
 def run():
-    admin = User.objects.create_superuser('mfahrur', 'mfahrurashyid@gmail.com', 'mfahrur')
-    trxact = User.objects.create_user('trxact', 'trxact@gmail.com', 'trxact')
+    admin = User.objects.create_superuser('mfahrur', 'mfahrurashyid@gmail.com', '@212543fulH')
+    trxact = User.objects.create_user('trxact', 'trxact@gmail.com', '@212543fulH')
     __location__ = os.path.realpath(
         os.path.join(os.getcwd(), os.path.dirname(__file__)))
     with open(os.path.join(__location__, 'xx.csv')) as csv_file:
