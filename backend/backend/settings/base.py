@@ -29,13 +29,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
-    'djmoney',
-    'knox',
-    'django_extensions',
-    'crispy_forms',
-    "crispy_tailwind",
-    'fontawesome-free',
-    'schema_graph',
 ]
 
 MIDDLEWARE = [
